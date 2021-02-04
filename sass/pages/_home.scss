@@ -1,4 +1,16 @@
-.main {
+body {
     background-color: $color-primary;
-    height: 100vh;
+}
+
+.main {
+
+}
+
+.section-freecat {
+    padding: 5rem;
+    margin: 10rem auto;
+    background-color: rgba(255, 255, 255, .7);
+    width: 80%;
+    max-width: 100rem;
+    border-radius: 3rem;
 }
