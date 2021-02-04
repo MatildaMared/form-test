@@ -1,1 +1,66 @@
+/* Color Theme Swatches in Hex */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.heading-primary {
+  font-family: "Lobster", cursive;
+}
+
+.header {
+  width: 100%;
+  background-color: #543A86;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  color: #E9D698;
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  padding: 1rem 2rem;
+}
+
+.header__navigation-list {
+  padding: 1rem 2rem;
+}
+
+.header__navigation-item {
+  display: inline-block;
+}
+
+.header__navigation-item:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.header__navigation-link {
+  color: #E9D698;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: all .3s;
+  padding: .5rem;
+}
+
+.header__navigation-link:visited, .header__navigation-link:link {
+  border-bottom: 3px solid red;
+}
+
+.header__navigation-link:hover, .header__navigation-link:active {
+  border-bottom: 3px solid;
+}
