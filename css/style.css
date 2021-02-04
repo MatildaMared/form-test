@@ -47,20 +47,24 @@ body {
 }
 
 .header__navigation-link {
-  color: #E9D698;
-  text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-decoration: none;
-  font-weight: 400;
-  letter-spacing: 1px;
-  transition: all .3s;
-  padding: .5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  border-bottom: 3px solid transparent;
+  transition: all .5s;
 }
 
-.header__navigation-link:visited, .header__navigation-link:link {
-  border-bottom: 3px solid red;
+.header__navigation-link:link, .header__navigation-link:visited {
+  color: #E9D698;
 }
 
-.header__navigation-link:hover, .header__navigation-link:active {
-  border-bottom: 3px solid;
+.header__navigation-link:hover {
+  border-bottom: 3px solid #A274A7;
+}
+
+.main {
+  background-color: #735698;
+  height: 100vh;
 }
