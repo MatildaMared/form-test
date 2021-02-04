@@ -21,7 +21,61 @@ body {
 }
 
 .heading-primary {
+  display: block;
+  text-align: center;
   font-family: "Lobster", cursive;
+  color: #735698;
+  font-size: 4rem;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.form__gender {
+  margin: 1rem 0;
+}
+
+.form__input {
+  margin-bottom: 1rem;
+  padding: .3rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  border-radius: .6rem;
+}
+
+.form__label {
+  margin: 1rem;
+}
+
+.form__text {
+  margin: 1rem;
+}
+
+.form__agreement {
+  margin-bottom: 1.5rem;
+}
+
+.form__button {
+  padding: 1.5rem 3rem;
+  border-radius: 25rem;
+  margin: 0 auto;
+  background-color: #735698;
+  color: #E9D698;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.form__button:hover {
+  background-color: #543A86;
 }
 
 .header {
@@ -74,10 +128,23 @@ body {
 }
 
 .section-freecat {
+  width: 100%;
   padding: 5rem;
   margin: 10rem auto;
   background-color: rgba(255, 255, 255, 0.7);
   width: 80%;
   max-width: 100rem;
   border-radius: 3rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-freecat__img-wrapper {
+  max-width: 50%;
+}
+
+.section-freecat__img {
+  width: 100%;
 }

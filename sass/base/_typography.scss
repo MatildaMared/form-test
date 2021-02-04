@@ -9,5 +9,10 @@ body {
 }
 
 .heading-primary {
+    display: block;
+    text-align: center;
     font-family: $font-secondary;
+    color: $color-primary;
+    font-size: 4rem;
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }

@@ -1,0 +1,48 @@
+.form {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, .7);
+
+    &__gender {
+        margin: 1rem 0;
+    }
+
+    &__input {
+        margin-bottom: 1rem;
+        padding: .3rem;
+        display: inline-block;
+        font-size: 1.6rem;
+        border-radius: .6rem;
+    }
+
+    &__label {
+        margin: 1rem;
+    }
+
+    &__text {
+        margin: 1rem;
+    }
+
+    &__agreement {
+        margin-bottom: 1.5rem;
+    }
+
+    &__button {
+        padding: 1.5rem 3rem;
+        border-radius: 25rem;
+        margin: 0 auto;
+        background-color: $color-primary;
+        color: $color-light;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        box-shadow:0 .5rem 1rem rgba(0, 0, 0, .2);
+
+        &:hover {
+            background-color: $color-primary-dark;
+        }
+    }
+}

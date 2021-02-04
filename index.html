@@ -26,13 +26,34 @@
     <main class="main">
         <section class="section-freecat">
             <article class="section-freecat__form-wrapper">
-                <h1 class="heading-primary">Sign up for a free cat</h1>
-                <form class="section-freecat__form">
-
+                <h1 class="heading-primary">Sign up here for a free cat</h1>
+                <form class="form">
+                    <div class="form__name">
+                        <label for="name" class="form__label">Name</label>
+                        <input class="form__input" type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form__email">
+                        <label for="email" class="form__label">Email</label>
+                        <input type="email" name="email" id="email" placeholder="name@email.com" class="form__input" required>
+                    </div>
+                    <div class="form__gender">
+                        <p class="form__text">Preferred gender</p>
+                        <label for="male" class="form__label">Male</label>
+                        <input class="form__input" type="radio" id="male" name="gender" value="male">
+                        <label for="female" class="form__label">Female</label>
+                        <input type="radio" id="female" name="gender" value="female" class="form__input">
+                        <label for="female" class="form__label">Doesn't matter</label>
+                        <input class="form__input" type="radio" id="any" name="gender" value="any">
+                    </div>
+                    <div class="form__agreement">
+                        <label for="terms" class="form__label">I accept the terms and I am at least 18 years old</label>
+                        <input class="form__input" type="checkbox" id="terms" name="terms" value="terms" required>
+                    </div>
+                    <input class="form__button" type="submit" value="Send me my cat!">
                 </form>
             </article>
             <figure class="section-freecat__img-wrapper">
-                <img src="images/cat.svg" alt="Sign up for a free cat">
+                <img src="images/cat.svg" alt="Sign up for a free cat" class="section-freecat__img">
             </figure>
         </section>
     </main>
